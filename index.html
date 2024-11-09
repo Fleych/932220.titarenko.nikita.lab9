@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Practice 9</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+
+    <body>
+        <table>
+            <tr><td colspan="5"><div class="output"><span id="output_2"></span><span id="output_1">0</span></div></td></tr>
+            <tr><td><button onclick="input_number(7)">7</button></td><td><button onclick="input_number(8)">8</button></td><td><button onclick="input_number(9)">9</button></td><td><button onclick="input_operation('/')">/</button></td><td><button onclick="clear_output()">C</button></td></tr>
+            <tr><td><button onclick="input_number(4)">4</button></td><td><button onclick="input_number(5)">5</button></td><td><button onclick="input_number(6)">6</button></td><td><button onclick="input_operation('*')">*</button></td><td><button onclick="backspace()">&lt-</button></td></tr>
+            <tr><td><button onclick="input_number(1)">1</button></td><td><button onclick="input_number(2)">2</button></td><td><button onclick="input_number(3)">3</button></td><td><button onclick="input_operation('-')">-</button></td><td rowspan="2"><button onclick="equal()" class="equal">=</button></td></tr>
+            <tr><td colspan="2"><button onclick="input_number(0)" class="zero">0</button></td><td><button onclick="input_dot()">.</button></td><td><button onclick="input_operation('+')">+</button></td></tr>
+        </table>
+        <script src="index.js"></script>
+    </body>
+</html>
